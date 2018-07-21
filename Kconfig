@@ -1,0 +1,6 @@
+config TOUCHSCREEN_GSLX680
+	tristate  "Silead GSLx680 touchscreen driver"
+	depends on INPUT && I2C
+	default m
+	help
+	  gsl1680,gsl2680,gsl3680 touchscreen driver
